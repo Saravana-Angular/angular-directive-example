@@ -11,6 +11,6 @@ export class AppComponent {
 
   toggleSecret() {
     this.showSecret = !this.showSecret;
-    this.clicks.push(this.clicks.length + 1);
+    this.clicks.push(new Date());
   }
 }
